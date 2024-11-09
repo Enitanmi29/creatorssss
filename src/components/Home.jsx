@@ -233,7 +233,7 @@ const Home = () => {
                     className='w-[436px] h-[436px]'
                     />
                </div>
-               <div className=' absolute mt-[120px] ml-[210px]'>
+               <div className=' absolute mt-[120px] ml-0 md:ml-[210px]'>
                <img 
                     src='/Mask Group (18).png'
                     alt='image centre'
@@ -277,15 +277,15 @@ const Home = () => {
                </div>
             </div>
 
-            <div className='w-full md:w-[50%] mt-40 ml-6 md:ml-40'>
+            <div className='w-full md:w-[50%] mt-40 ml-4 md:ml-40'>
                 <h1 className='w-[334px] text-[#333333] text-[20px] font-sans font-bold'> 
                     Join the Community on ClassDojo
                 </h1>
-                <p className='w-[399px] text-[#333333] text-[10px] md:text-[14px] mt-4 font-sans font-normal'>
+                <p className='w-[399px] text-[#333333] text-[12px] md:text-[14px] mt-4 font-sans font-normal'>
                     Lorem Ipsum stuff and stuff and all those text that is relevant.
                 </p>
                 <Link to="/Form1">
-                    <button className='w-[189px] border bg-white rounded-xl mb-4 md:mb-0 mt-8 p-4 text-[#333333] font-sans font-bold'>
+                    <button className='w-[189px] border bg-white rounded-xl mb-4 md:mb-0 mt-4 md:mt-8 p-4 text-[#333333] font-sans font-bold'>
                         Join Community
                     </button>  
                 </Link>
