@@ -52,7 +52,7 @@ const Home = () => {
     </div>
 
 {/* BECOME A CREATOR SECTION */}
-    <div className='bg-white ml-20 pt-20 pb-40'>
+    <div className='bg-white ml-4 md:ml-20 pt-20 pb-40'>
         <div className='flex flex-col md:flex-row items-start justify-between mb-10 md:mb-60'>
             <div className='relative w-full md:w-[50%] mb-40 md:mb-0'>
                 <img 
