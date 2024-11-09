@@ -58,13 +58,13 @@ const Home = () => {
                 <img 
                     src='/Rectangle 6.png' 
                     alt='image' 
-                    className='top-20 w-full md:w-[529px] h-[529px] rounded-[20px] z-0 opacity-[80%]'
+                    className='top-10 w-full md:w-[529px] h-auto rounded-[20px] z-0 opacity-[80%]'
                 />
 
                 <img 
                      src='/Mask Group (14).png' 
                      alt='image' 
-                     className='absolute top-10 left-10 w-full md:w-[529px] h-[529px] rounded-[20px] z-10'
+                     className='absolute top-20 left-10 w-full md:w-[529px] h-auto rounded-[20px] z-10'
                     />
 
                 <img 
@@ -75,7 +75,7 @@ const Home = () => {
                 
             </div>
 
-            <div className='w-full md:w-[50%] float-right md:ml-60'>
+            <div className='w-full md:w-[50%] md:ml-60'>
                 <div className='text-[#EE3726] font-Work Sans font-bold text-[16px] md:text-[32px]'>
                     How YCreators Works
                 </div>
