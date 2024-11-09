@@ -88,7 +88,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div className='mt-40 mb-8 flex justify-center'>
+        <div className='mt-10 md:mt-40 mb-8 flex justify-center'>
         <Link to="/Form1">
             <button className='items-center text-white bg-[#009499] w-[239px] h-[52px] rounded-[10px]'>
                     Become a Creator
