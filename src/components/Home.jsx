@@ -211,7 +211,7 @@ const Home = () => {
         <div className='flex flex-col justify-between pb-10 md:pb-20 max-w-fit md:mx-40'>
                 <div className='flex flex-col md:flex-row gap-x-4'>
                     {Advantage.map((advantage, index) => (
-                        <div key={index} className='border rounded-xl bg-white w-full md:w-[365px] p-4 mb-4'>
+                        <div key={index} className='border rounded-xl bg-white w-full md:w-[365px] p-4 mb-6'>
                             <h1 className='flex justify-center mt-12 mb-4 font-Montserrat font-bold text-[16px] md:text-[20px] text-[#009499]'>
                                 {advantage.header}
                             </h1>
@@ -224,7 +224,7 @@ const Home = () => {
        </div>
 
 
-        <div className='flex border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-full md:w-[1100px]'> 
+        <div className='flex flex-col border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-full md:w-[1100px]'> 
             <div className='flex w-full md:w-[50%] '>
                <div className='relative ml-[80px]'>
                     <img 
