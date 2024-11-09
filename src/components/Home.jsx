@@ -357,15 +357,12 @@ const Home = () => {
                 <div className='text-[#333333] px-4 md:px-0 text-[24px] md:text-[32px] flex justify-center font-sans font-bold bg-white mb-10 md:mb-20'>
                     Here is why our People Love us
                 </div>
-                <div className='mx-10 md:mx-40 mb-20'>
+                <div className='mx-10 md:mx-40 mb-10 md:mb-20'>
                     <img
                         src='/Group 83.png'
                         alt='vid'
                         className=''
                     />
-                </div>
-                <div className='rounded-lg mb-40 mt-10 pt-20'>
-                    <Reviews className='font-bold ml-20 text-[32px] font-sans text-[#333333]' />        
                 </div>
             </div>
 
@@ -375,13 +372,13 @@ const Home = () => {
                         Frequently Asked Questions
                     </h1>
 
-                    <div className='relative'>
+                    <div className='relative w-full'>
                        <div className='absolute ml-[800px]'>
                          <img src='/path1538 (2).png' className='w-[654px] h-[554px]'/>
                        </div>    
-                        <div className='mb-4 mx-40 pt-20'>
+                        <div className='mb-4 mx-100 md:mx-40 pt-20'>
                                 {Questions.map ((Questions, index) =>(
-                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-10 py-4 pl-10 mb-3'>
+                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-4 md:ml-10 py-4 pl-10 mb-3'>
                                     {Questions.paragraph}
                                 </p>
                             ))}
