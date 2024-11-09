@@ -53,29 +53,30 @@ const Home = () => {
 
 {/* BECOME A CREATOR SECTION */}
     <div className='bg-white ml-20 pt-20 pb-40'>
-        <div className='flex items-start justify-between mb-60'>
-            <div className='relative w-[50%]'>
+        <div className='flex flex-col md:flex-row items-start justify-between mb-10 md:mb-60'>
+            <div className='relative w-full md:w-[50%] mb-10 md:mb-0'>
                 <img 
                     src='/Rectangle 6.png' 
                     alt='image' 
-                    className='relative top-20 w-[529px] h-[529px] rounded-[20px] z-0 opacity-[80%]'
+                    className='top-20 w-full md:w-[529px] h-[529px] rounded-[20px] z-0 opacity-[80%]'
                 />
-                <div className='flex'>
-                    <img 
-                        src='/Mask Group (14).png' 
-                        alt='image' 
-                        className='absolute top-10 left-10 w-[529px] h-[529px] rounded-[20px] z-10'
+
+                <img 
+                     src='/Mask Group (14).png' 
+                     alt='image' 
+                     className='absolute top-10 left-10 w-full md:w-[529px] h-[529px] rounded-[20px] z-10'
                     />
-                    <img 
-                        src='/ion_planet-outline.png' 
-                        alt='image' 
-                        className='absolute top-4 left-[520px] w-[60px] h-[60px] z-10'
-                    />
-                </div>
+
+                <img 
+                     src='/ion_planet-outline.png' 
+                     alt='image' 
+                     className='absolute top-4 left-[520px] w-full md:w-[60px] h-[60px] z-10'
+                />
+                
             </div>
 
-            <div className='w-[50%] float-right ml-60'>
-                <div className='text-[#EE3726] font-Work Sans font-bold text-[32px]'>
+            <div className='w-full md:w-[50%] float-right md:ml-60'>
+                <div className='text-[#EE3726] font-Work Sans font-bold text-[16px] md:text-[32px]'>
                     How YCreators Works
                 </div>
                 <div>
@@ -83,8 +84,8 @@ const Home = () => {
                         {YCreators.map((YCreators, index) =>(
                             <li key={index}>
                                 <a>
-                                <h1 className='pt-10 pb-1 text-[20px]'> {YCreators.header}</h1>
-                                <p className='text-[10px]'>{YCreators.paragraph}</p>
+                                <h1 className='pt-10 pb-1 text-[14px] md:text-[20px]'> {YCreators.header}</h1>
+                                <p className='text-[6px] md:text-[10px]'>{YCreators.paragraph}</p>
                                 </a>
                             </li>
                         ))}
