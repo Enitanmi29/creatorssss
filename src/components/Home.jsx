@@ -54,7 +54,7 @@ const Home = () => {
 {/* BECOME A CREATOR SECTION */}
     <div className='bg-white ml-20 pt-20 pb-40'>
         <div className='flex flex-col md:flex-row items-start justify-between mb-10 md:mb-60'>
-            <div className='relative w-full md:w-[50%] mb-10 md:mb-0'>
+            <div className='relative w-full md:w-[50%] mb-40 md:mb-0'>
                 <img 
                     src='/Rectangle 6.png' 
                     alt='image' 
@@ -70,7 +70,7 @@ const Home = () => {
                 <img 
                      src='/ion_planet-outline.png' 
                      alt='image' 
-                     className='absolute top-4 left-[520px] w-full md:w-[60px] h-[60px] z-10'
+                     className='absolute top-4 left-[520px] w-full md:w-[60px] h-auto z-10'
                 />
                 
             </div>
