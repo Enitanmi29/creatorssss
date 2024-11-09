@@ -25,7 +25,7 @@ const Home = () => {
         </div>
 
         <div className='mt-1 flex justify-between items-center px-8 md:px-20'>
-                <img src='/Group 60.png' alt='circle image' className='w-[40%] md:w-auto'/>
+                <img src='/Group 60.png' alt='circle image' className='w-[40%] mr-10 md:mr-20 md:w-auto'/>
                 <img src='/path1538.png' alt='star image' className='w-[20%] md:w-auto'/>
         </div>
 
@@ -40,7 +40,7 @@ const Home = () => {
 
         <div className='flex flex-col md:flex-row items-center justify-center md:justify-start mt-10 px-8 md:ml-20'>
           <Link to="/Form1"> 
-             <button className='bg-[#009499] text-white w-full md:w-[191px] md:h-[52px] rounded-[10px] mr-0 md:mr-6 mb-4 md:mb-0'>
+             <button className='bg-[#009499] text-white w-full md:w-[191px] h-[52px] rounded-[10px] mr-0 md:mr-6 mb-4 md:mb-0'>
                 Become a Creator
             </button>
 
