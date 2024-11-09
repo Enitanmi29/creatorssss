@@ -285,7 +285,7 @@ const Home = () => {
                     Lorem Ipsum stuff and stuff and all those text that is relevant
                 </p>
                 <Link to="/Form1">
-                    <button className='w-[189px] border bg-white rounded-xl mb-4 mt-8 p-4 text-[#333333] font-sans font-bold'>
+                    <button className='w-[189px] border bg-white rounded-xl mb-4 md:mb-0 mt-8 p-4 text-[#333333] font-sans font-bold'>
                         Join Community
                     </button>  
                 </Link>
