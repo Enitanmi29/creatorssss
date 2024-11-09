@@ -333,7 +333,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='w-[50%] ml-20 mt-20'>
+            <div className='w-full md:w-[50%] md:ml-20 mt-20'>
                 <h1 className='text-[#009499] text-[20px] font-sans font-bold'>
                     We will get Back to you in Less
                     Than a day.
