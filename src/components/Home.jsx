@@ -224,7 +224,7 @@ const Home = () => {
        </div>
 
 
-        <div className='flex flex-col md:flex-row border bg-[#FFD67B] ml-2 md:ml-28 my-20 rounded-xl mx-auto md:mx-20 w-full md:w-[1100px]'> 
+        <div className='flex flex-col md:flex-row border bg-[#FFD67B] ml-0 md:ml-28 my-20 rounded-xl mx-auto md:mx-20 w-full md:w-[1100px]'> 
             <div className='flex w-full md:w-[50%] '>
                <div className='relative ml-[80px]'>
                     <img 
@@ -277,7 +277,7 @@ const Home = () => {
                </div>
             </div>
 
-            <div className='w-full md:w-[50%] mt-40 md:ml-40'>
+            <div className='w-full md:w-[50%] mt-40 ml-auto md:ml-40'>
                 <h1 className='w-[334px] text-[#333333] text-[20px] font-sans font-bold'> 
                     Join the Community on ClassDojo
                 </h1>
