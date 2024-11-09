@@ -300,7 +300,7 @@ const Home = () => {
 
         <div className='bg-white flex flex-col md:flex-row ml-0 md:ml-20 mb-40'>
             <div className='w-full md:w-[50%]'>
-                <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-[645px] h-[626px]'>
+                <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-full md:w-[645px] h-[626px]'>
                     <div className=''>              
                         <input
                             className=' pl-4 mb-8 ml-10 w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
