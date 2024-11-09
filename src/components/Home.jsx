@@ -277,12 +277,12 @@ const Home = () => {
                </div>
             </div>
 
-            <div className='w-full md:w-[50%] mt-40 ml-auto md:ml-40'>
+            <div className='w-full md:w-[50%] mt-40 ml-6 md:ml-40'>
                 <h1 className='w-[334px] text-[#333333] text-[20px] font-sans font-bold'> 
                     Join the Community on ClassDojo
                 </h1>
                 <p className='w-[399px] text-[#333333] text-[14px] mt-4 font-sans font-normal'>
-                    Lorem Ipsum stuff and stuff and all those text that is relevant
+                    Lorem Ipsum stuff and stuff and all those text that is relevant.
                 </p>
                 <Link to="/Form1">
                     <button className='w-[189px] border bg-white rounded-xl mb-4 md:mb-0 mt-8 p-4 text-[#333333] font-sans font-bold'>
