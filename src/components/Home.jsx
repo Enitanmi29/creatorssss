@@ -25,8 +25,8 @@ const Home = () => {
         </div>
 
         <div className='mt-1 flex justify-between items-center px-8 md:px-20'>
-                <img src='/Group 60.png' alt='circle image' className='w-[40%] ml-[500px] md:ml-[1800px] md:w-auto'/>
-                <img src='/path1538.png' alt='star image' className='w-[20%] md:w-auto'/>
+                <img src='/Group 60.png' alt='circle image' className='w-[40%] md:w-auto'/>
+                <img src='/path1538.png' alt='star image' className='w-[20%] mr-[500px] md:mr-[1800px]  md:w-auto'/>
         </div>
 
 
