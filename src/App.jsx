@@ -34,18 +34,20 @@ function App() {
           <Navbar />
         </div>
       )}
-      <Routes>
-        <Route path='/' element={<Home />} /> {/* Home component for root path */}
-        <Route path='/About' element={<About />} />
-        <Route path='/Service' element={<Service />} />
-        <Route path='/Plan' element={<Plan />} />
-        <Route path='/Gallery' element={<Gallery />} />
-        <Route path='/Courses' element={<Courses />} />
-        <Route path='/Gallery2' element={<Gallery2 />} />
-        <Route path='/Plan1' element={<Plan1 />} />
-        <Route path='/Plan2' element={<Plan2 />} />
-        <Route path='/Form1' element={<Form1 />} />
-      </Routes>
+       <div className="max-w-[90%] md:max-w-[80%] lg:max-w-[70%] mx-auto p-4">
+          <Routes>
+            <Route path='/' element={<Home />} /> {/* Home component for root path */}
+            <Route path='/About' element={<About />} />
+            <Route path='/Service' element={<Service />} />
+            <Route path='/Plan' element={<Plan />} />
+            <Route path='/Gallery' element={<Gallery />} />
+            <Route path='/Courses' element={<Courses />} />
+            <Route path='/Gallery2' element={<Gallery2 />} />
+            <Route path='/Plan1' element={<Plan1 />} />
+            <Route path='/Plan2' element={<Plan2 />} />
+            <Route path='/Form1' element={<Form1 />} />
+          </Routes>
+       </div>
     </div>
   );
 }
