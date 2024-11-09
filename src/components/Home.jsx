@@ -281,7 +281,7 @@ const Home = () => {
                 <h1 className='w-[334px] text-[#333333] text-[20px] font-sans font-bold'> 
                     Join the Community on ClassDojo
                 </h1>
-                <p className='w-[399px] text-[#333333] text-[14px] mt-4 font-sans font-normal'>
+                <p className='w-[399px] text-[#333333] text-[10px] md:text-[14px] mt-4 font-sans font-normal'>
                     Lorem Ipsum stuff and stuff and all those text that is relevant.
                 </p>
                 <Link to="/Form1">
