@@ -204,18 +204,18 @@ const Home = () => {
 
 {/* THE YCREATORS SECTION */}
     <div className='bg-[#e2f3f3] pb-20'>
-        <div className=' flex justify-center pt-40 pb-20 font-bold text-[32px]'>
+        <div className='flex justify-center pt-40 pb-20 font-bold text-[32px]'>
           The YCreators Advantage
         </div>
 
-        <div className='flex justify-between pb-20 mx-40'>
-                <div className='flex flex-row gap-x-4'>
+        <div className='flex justify-between pb-10 md:pb-20 max-w-fit md:mx-40'>
+                <div className='flex flex-col md:flex-row gap-x-4'>
                     {Advantage.map((advantage, index) => (
                         <div key={index} className='border rounded-xl bg-white w-[365px] p-4'>
-                            <h1 className='flex justify-center mt-12 mb-4 font-Montserrat font-bold text-[20px] text-[#009499]'>
+                            <h1 className='flex justify-center mt-12 mb-4 font-Montserrat font-bold text-[16px] md:text-[20px] text-[#009499]'>
                                 {advantage.header}
                             </h1>
-                            <p className='mx-2 mb-8 font-Open Sans font-normal text-[14px] text-[#333333]'>
+                            <p className='mx-2 mb-8 font-Open Sans font-normal text-[11px] md:text-[14px] text-[#333333]'>
                                 {advantage.paragraph}
                             </p>
                         </div>
@@ -224,8 +224,8 @@ const Home = () => {
        </div>
 
 
-        <div className=' flex border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-[1100px]'> 
-            <div className='w-[50%] flex'>
+        <div className='flex border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-full md:w-[1100px]'> 
+            <div className='flex w-full md:w-[50%] '>
                <div className='relative ml-[80px]'>
                     <img 
                     src='/Ellipse 14.png'
