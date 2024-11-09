@@ -298,8 +298,8 @@ const Home = () => {
         Send a Course Request   
         </div>
 
-        <div className='bg-white flex ml-20 mb-40'>
-            <div className='w-[50%]'>
+        <div className='bg-white flex flex-col md:flex-row ml-0 md:ml-20 mb-40'>
+            <div className='w-full md:w-[50%]'>
                 <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-[645px] h-[626px]'>
                     <div className=''>              
                         <input
