@@ -303,7 +303,7 @@ const Home = () => {
                 <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-full md:w-[645px] h-[626px]'>
                     <div className=''>              
                         <input
-                            className=' pl-4 mb-8 ml-4 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
+                            className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
                             type='text'
                             id='name'
                             placeholder='Name'
@@ -311,7 +311,7 @@ const Home = () => {
                     </div>
                     <div className=''>          
                             <input
-                                className=' pl-4 mb-8 ml-10 w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
+                                className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
                                 type='tel'
                                 id='number'
                                 placeholder='Phone number'
@@ -319,13 +319,13 @@ const Home = () => {
                     </div>
                     <div className=''>
                             <input
-                                className=' pl-4 mb-8 ml-10 w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
+                                className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-6'
                                 type='email'
                                 id='email'
                                 placeholder='Email address'
                             />
                     </div>
-                    <div className=' flex justify-center items-center bg-white text-blue-800 border rounded-xl w-[553px] h-[82px] ml-10 font-bold'>
+                    <div className=' flex justify-center items-center bg-white text-blue-800 border rounded-xl w-[553px] h-[82px] ml-0 md:ml-10 font-bold'>
                         <button>
                             Send a Course Request
                         </button>
