@@ -224,7 +224,7 @@ const Home = () => {
        </div>
 
 
-        <div className='flex flex-col border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-full md:w-[1100px]'> 
+        <div className='flex flex-col md:flex-row border bg-[#FFD67B] ml-28 my-20 rounded-xl mx-20 w-full md:w-[1100px]'> 
             <div className='flex w-full md:w-[50%] '>
                <div className='relative ml-[80px]'>
                     <img 
