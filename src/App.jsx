@@ -28,7 +28,7 @@ function App() {
   }, [location]);
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white mx-auto'>
       {showNavbar && (
         <div className='bg-[#fffaef]'>
           <Navbar />

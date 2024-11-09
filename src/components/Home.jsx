@@ -7,46 +7,44 @@ import Reviews from './Reviews'
 
 const Home = () => {
     const [selectedOption, setSelectedOption] = useState("")
-     const navigate=useNavigate();
+     const navigate = useNavigate();
     
     const handleSelectChange = (e) => {
         const selectedValue=e.target.value
         setSelectedOption (selectedValue);
     
-    }
+    };
+
   return (
     <>
 
     <div className='bg-[#fffaef] pt-20 pb-40'>
-        <div className='ml-[1150px]'>
-            <img src='/fluent_target-arrow-20-filled.png'/>
+        <div className='flex justify-end pr-8'>
+            <img src='/fluent_target-arrow-20-filled.png'
+            alt='arrow image'/>
         </div>
 
-        <div className='mt-1 flex'>
-            <div className='ml-[80px]'>
-                <img src='/Group 60.png'/>
-            </div>
-            <div className='ml-[700px]'>
-                <img src='/path1538.png'/>
-            </div>
+        <div className='mt-1 flex justify-between items-center px-8 md:px-20'>
+                <img src='/Group 60.png' alt='circle image' className='w-[40%] md:w-auto'/>
+                <img src='/path1538.png' alt='star image' className='w-[20%] md:w-auto'/>
         </div>
 
 
-        <div className='block font-Nexa Bold font-bold ml-20 text-[48px] '>
+        <div className='block font-bold text-center md:text-left text-[36px] md:text-[48px] font-Nexa mt-8 px-8 md:ml-20'>
             Big Bold Text that works 
             <span className='block' >as a <span className='text-red-500'>headline copy</span></span>
-           <p className='font-Open Sans font-normal text-[20px]'>
+           <p className='font-Open Sans font-normal text-[16px] md:text-[20px] mt-4'>
            Lorem Ipsum stuff and stuff and all those text that is relevant
            </p> 
         </div>
 
-        <div className='flex ml-20 mt-10'>
+        <div className='flex flex-col md:flex-row items-center justify-center md:justify-start mt-10 px-8 md:ml-20'>
           <Link to="/Form1"> 
-             <button className='bg-[#009499] text-white w-[191px] h-[52px] rounded-[10px] mr-6'>
+             <button className='bg-[#009499] text-white w-full md:w-[191px] md:h-[52px] rounded-[10px] mr-0 md:mr-6 mb-4 md:mb-0'>
                 Become a Creator
             </button>
 
-            <button className='bg-[#FEF9EC] text-[#009499] font-bold w-[210px] h-[52px] rounded-[10px] border border-blue-400 border-1'>
+            <button className='bg-[#FEF9EC] text-[#009499] font-bold w-full md:w-[210px] h-[52px] rounded-[10px] border border-blue-400 border-1'>
                 Book a Consultation
             </button>
          </Link>
