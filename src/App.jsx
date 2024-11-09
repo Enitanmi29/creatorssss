@@ -34,7 +34,7 @@ function App() {
           <Navbar />
         </div>
       )}
-       <div className="max-w-[100%] md:max-w-[100%] lg:max-w-[90%] mx-auto p-2">
+      
           <Routes>
             <Route path='/' element={<Home />} /> {/* Home component for root path */}
             <Route path='/About' element={<About />} />
@@ -47,7 +47,7 @@ function App() {
             <Route path='/Plan2' element={<Plan2 />} />
             <Route path='/Form1' element={<Form1 />} />
           </Routes>
-       </div>
+      
     </div>
   );
 }
