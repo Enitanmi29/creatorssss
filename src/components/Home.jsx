@@ -303,7 +303,7 @@ const Home = () => {
                 <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-full md:w-[645px] h-[626px] px-4 md:px-0'>
                     <div className=''>              
                         <input
-                            className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-0 md:mt-6'
+                            className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-4 md:mt-6'
                             type='text'
                             id='name'
                             placeholder='Name'
@@ -353,11 +353,11 @@ const Home = () => {
         </div>
 
 {/* Here is why our People Love us section */}
-            <div className='bg-white '>
-                <div className='text-[#333333] text-[32px] flex justify-center font-sans font-bold bg-white mb-20'>
+            <div className='bg-white'>
+                <div className='text-[#333333] px-4 md:px-0 text-[24px] md:text-[32px] flex justify-center font-sans font-bold bg-white mb-10 md:mb-20'>
                     Here is why our People Love us
                 </div>
-                <div className='mx-40 mb-20'>
+                <div className='mx-10 md:mx-40 mb-20'>
                     <img
                         src='/Group 83.png'
                         alt='vid'
