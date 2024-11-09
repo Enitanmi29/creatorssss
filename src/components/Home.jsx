@@ -64,7 +64,7 @@ const Home = () => {
                 <img 
                      src='/Mask Group (14).png' 
                      alt='image' 
-                     className='absolute top-10 left-10 w-full md:w-[529px] h-auto rounded-[20px] z-10'
+                     className='absolute top-20 left-10 w-full md:w-[529px] h-auto rounded-[20px] z-10'
                     />                
                 
             </div>
