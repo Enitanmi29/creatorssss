@@ -299,8 +299,8 @@ const Home = () => {
         </div>
 
         <div className='bg-white flex flex-col md:flex-row ml-0 md:ml-20 mb-40'>
-            <div className='w-full md:w-[50%] px-4 md:px-0'>
-                <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-full md:w-[645px] h-[626px]'>
+            <div className='w-full md:w-[50%]'>
+                <div className='border-[#009499] border-2 bg-[#1A2960] rounded-xl w-full md:w-[645px] h-[626px] px-4 md:px-0'>
                     <div className=''>              
                         <input
                             className=' pl-4 mb-8 ml-0 md:ml-10 w-full md:w-[553px] h-[83px] border-2 rounded-xl bg-[#FFFFFF1F] font-sans font-normal text-[14px] text-[#FFFFFF] mt-0 md:mt-6'
