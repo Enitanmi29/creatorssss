@@ -233,7 +233,7 @@ const Home = () => {
                     className='w-[436px] h-[436px]'
                     />
                </div>
-               <div className=' absolute mt-[120px] ml-6 md:ml-[210px]'>
+               <div className=' absolute mt-[120px] ml-10 md:ml-[210px]'>
                <img 
                     src='/Mask Group (18).png'
                     alt='image centre'
