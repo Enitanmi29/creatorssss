@@ -188,15 +188,15 @@ const Home = () => {
 
 {/* BOOK A CONSULTATION SECTION */}
     <div className='bg-[#009499] md-0 md:pl-60 mt-40 pt-20'>
-        <h1 className='font-Work Sans font-bold text-[24px] md:text-[32px] text-white'>
+        <h1 className='font-Work Sans font-bold text-[24px] md:text-[32px] text-white px-4'>
             Not feeling any of the jargon we just said?
         </h1>
-        <p className='font-Work Sans font-medium text-[10px] md:text-[14px] text-white pt-2 w-full md:w-[700px] h-[46px]'>
+        <p className='font-Work Sans font-medium text-[10px] md:text-[14px] text-white pt-2 w-full md:w-[700px] h-[46px] px-4'>
             Book a consultation session with one of our experts and we will help you make the best decision
             for your child
         </p>
         <Link to="/Service">
-            <button className='w-full md:w-[218px] h-[62px] mt-10 border bg-white text-black rounded-2xl mb-10'>
+            <button className='w-[218px] h-[62px] mt-10 border bg-white text-black rounded-2xl mb-10'>
                 Book a Consultation
             </button>
         </Link>
