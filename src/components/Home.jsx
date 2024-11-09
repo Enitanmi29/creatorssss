@@ -373,10 +373,10 @@ const Home = () => {
                     </h1>
 
                     <div className='relative w-full'>
-                       <div className='absolute ml-[800px]'>
+                       <div className='absolute ml-4 md:ml-[800px]'>
                          <img src='/path1538 (2).png' className='w-[654px] h-[554px]'/>
                        </div>    
-                        <div className='mb-4 mx-100 md:mx-40 pt-20'>
+                        <div className='mb-4 mx-10 md:mx-40 pt-20'>
                                 {Questions.map ((Questions, index) =>(
                                 <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-4 md:ml-10 py-4 pl-10 mb-3'>
                                     {Questions.paragraph}
