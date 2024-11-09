@@ -224,7 +224,7 @@ const Home = () => {
        </div>
 
 
-        <div className='flex flex-col md:flex-row border bg-[#FFD67B] my-20 rounded-xl mx-0 md:mx-20 p-2 w-full md:w-[1100px]'> 
+        <div className='flex flex-col md:flex-row border bg-[#FFD67B] my-20 rounded-xl mx-0 md:mx-20 w-full md:w-[1100px]'> 
             <div className='flex w-full md:w-[50%] '>
                <div className='relative ml-[80px]'>
                     <img 
@@ -233,7 +233,7 @@ const Home = () => {
                     className='w-[436px] h-[436px]'
                     />
                </div>
-               <div className=' absolute mt-[120px] ml-20 md:ml-[210px]'>
+               <div className=' absolute mt-[120px] ml-40 md:ml-[210px]'>
                <img 
                     src='/Mask Group (18).png'
                     alt='image centre'
