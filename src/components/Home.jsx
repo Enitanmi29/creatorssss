@@ -64,13 +64,13 @@ const Home = () => {
                 <img 
                      src='/Mask Group (14).png' 
                      alt='image' 
-                     className='absolute top-20 left-10 w-full md:w-[529px] h-auto rounded-[20px] z-10'
+                     className='absolute top-20 left-10 w-full md:w-[529px] h-[529px] rounded-[20px] z-10'
                     />
 
                 <img 
                      src='/ion_planet-outline.png' 
                      alt='image' 
-                     className='absolute top-4 left-[520px] w-full md:w-[60px] h-auto z-10'
+                     className='absolute top-4 left-[520px] w-full md:w-[60px] h-[60px] z-10'
                 />
                 
             </div>
