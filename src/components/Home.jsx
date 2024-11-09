@@ -196,7 +196,7 @@ const Home = () => {
             for your child
         </p>
         <Link to="/Service">
-            <button className='w-[218px] h-[62px] mt-10 border bg-white text-black rounded-2xl mb-10 mx-10'>
+            <button className='w-[218px] h-[62px] mt-10 border bg-white text-black rounded-2xl mb-10 mx-8'>
                 Book a Consultation
             </button>
         </Link>
