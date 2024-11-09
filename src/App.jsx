@@ -34,7 +34,7 @@ function App() {
           <Navbar />
         </div>
       )}
-       <div className="max-w-[90%] md:max-w-[80%] lg:max-w-[70%] mx-auto p-4">
+       <div className="max-w-[100%] md:max-w-[100%] lg:max-w-[90%] mx-auto p-2">
           <Routes>
             <Route path='/' element={<Home />} /> {/* Home component for root path */}
             <Route path='/About' element={<About />} />
