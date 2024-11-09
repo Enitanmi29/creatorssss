@@ -368,7 +368,7 @@ const Home = () => {
 
 {/* Frequently Asked Questions */}
                 <div className='mb-40 md:mb-60'>
-                    <h1 className='flex justify-center font-sans font-bold text-[32px] md:text-[40px] mx-4 md:mx-0'>
+                    <h1 className='flex justify-center font-sans font-bold text-[24px] md:text-[40px] mx-2 md:mx-0'>
                         Frequently Asked Questions
                     </h1>
 
@@ -378,7 +378,7 @@ const Home = () => {
                        </div>    
                         <div className='mb-4 mx-2 md:mx-40 pt-20'>
                                 {Questions.map ((Questions, index) =>(
-                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-4 md:ml-10 py-4 pl-2 md:pl-10 mb-3'>
+                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-0 md:ml-10 py-4 pl-2 md:pl-10 mb-3'>
                                     {Questions.paragraph}
                                 </p>
                             ))}
