@@ -135,7 +135,7 @@ const About = () => {
                 <h1 className='text-white text-lg md:text-2xl font-bold pl-8 md:pl-20 pt-10 pb-4'>
                   Newsletter Subscription
                 </h1>
-                <div className='flex flex-col md:flex-row items-center py-8 pl-8 md:pl-20'> 
+                <div className='flex flex-col md:flex-row items-center py-8 md:pl-20'> 
                   <input 
                   className='pl-4 w-[250px] md:w-[553px] border-2 border-[#4d7475] rounded-xl bg-[#009499] 
                   font-sans font-normal text-[14px] py-4 mb-10 text-[#FFFFFF]'
