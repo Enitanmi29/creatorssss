@@ -164,7 +164,7 @@ const Service = () => {
 
 {/* Team of expert section */}
                 <div className='flex flex-col md:flex-row my-20'>
-                    <div className='w-auto md:w-[50%] relative px-6 md:px-20 mb-[350px] md:mb-0 mx-6 md:mx-0'>
+                    <div className='w-auto md:w-[50%] relative px-2 md:px-20 mb-[400px] md:mb-0 mx-2 md:mx-0'>
                       <div className='ml-2 mt-20 absolute'>
                         <img 
                         src='/Mask Group (14).png'
@@ -192,7 +192,7 @@ const Service = () => {
                       <h1 className='font-bold text-xl md:text-3xl pr-4 md:pr-40 text-[#333333]'>
                         Check out our team of expert facilitators
                       </h1>
-                      <p className='font-normal text-[12px] md:text-[16px] pr-4 md:pr-40 text-[#000000] pt-6'>
+                      <p className='font-normal text-[14px] md:text-[16px] pr-4 md:pr-40 text-[#000000] pt-6'>
                         Lorem Ipsum stuff and stuff and all those text that is relevant to explaining what YCreators is about and what folks stand to benefit from being a part of YCreators rather than other people. This copy will be provided by the YCreators team.
                       </p>
                       <Link to="/Form1" className=''>
