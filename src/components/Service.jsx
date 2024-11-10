@@ -71,7 +71,7 @@ const Service = () => {
               </Link>
             </div>
 
-            <div className='md:w-[50%] relative mt-10 md:mt-0 mb-[450PX] md:mb-0 mx-6'>
+            <div className='md:w-[50%] relative mt-10 md:mt-0 mb-[300PX] md:mb-0 mx-6'>
               <div className='ml-2 mt-20 absolute'>
                 <img 
                 src='/Mask Group (14).png'
@@ -121,14 +121,14 @@ const Service = () => {
                 <h1 className='text-[#009499] text-3xl font-bold text-center pt-10'>
                   What’s in this program
                 </h1>
-                <p className='text-black text-sm font-normal text-center pt-2'>
+                <p className='text-black text-[10px] md:text-sm font-normal text-center pt-2'>
                   Lorem Ipsum stuff and stuff and all those text that is relevant
                 </p>
 
                 <div className='pt-10'>
                   <div className='flex flex-wrap space-x-4 justify-center'>
                     {[...program, ...program].map((program, index) => (
-                      <div key={index} className='w-[333px] h-[312px] bg-white rounded-lg shadow-md mb-6'>
+                      <div key={index} className='w-[333px] h-[312px] bg-white rounded-lg shadow-md mb-6 mx-4 md:mx-0'>
                         <img 
                           src={program.image}
                           alt={program.header} 
