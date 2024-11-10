@@ -55,7 +55,7 @@ const Service = () => {
         </div>
 
 {/* WE CAN HELP YOUR CHILD SECTION */}
-          <div className='flex flex-col md:flex-row mt-20'>
+          <div className='flex flex-col md:flex-row mt-10'>
             <div className='w-auto md:w-[50%] px-6 md:px-20 pt-20 md:pt-40'>
               <h1 className='font-bold text-xl md:text-3xl text-[#333333] mb-6'>
                 We can help your child become
@@ -71,7 +71,7 @@ const Service = () => {
               </Link>
             </div>
 
-            <div className='w-full md:w-[50%] relative'>
+            <div className='w-full md:w-[50%] relative mt-10 md:mt-0 mb-60 md:mb-0 mx-6'>
               <div className='ml-2 mt-20 absolute'>
                 <img 
                 src='/Mask Group (14).png'
