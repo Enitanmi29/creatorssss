@@ -188,7 +188,7 @@ const Service = () => {
                       </div>
                     </div>
 
-                    <div className='w-auto md:w-[50%] mx-6 md:mx-0 mt-10 md:mt-40'>
+                    <div className='w-auto md:w-[50%] mx-6 md:mx-0 mt-10 md:mt-40 md:mb-20'>
                       <h1 className='font-bold text-xl md:text-3xl pr-4 md:pr-40 text-[#333333]'>
                         Check out our team of expert facilitators
                       </h1>
