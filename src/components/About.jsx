@@ -41,7 +41,7 @@ const About = () => {
             />
           </div>
 
-          <div className='w-full md:w-[50%] mx-2 md:mx-0 mt-6 md:mt-40'>
+          <div className='w-full md:w-[50%] mx-2 md:pl-10 mt-6 md:mt-40'>
             <h1 className='font-sans font-bold text-black text-lg md:text-xl'>
               Building things is a bit magical, we have the recipes
             </h1>
@@ -60,7 +60,7 @@ const About = () => {
       </div>
 
 {/* About Ycreators section */}
-        <div className='pt-4'>
+        <div className='pt-6 md:pt-4'>
             <div className='flex justify-center text-center'>
               <h1 className='font-sans font-bold text-[48px] text-[#333333]'>
                 About YCreators
@@ -68,11 +68,11 @@ const About = () => {
               <img 
               src='/ion_planet-outline.png'
               alt='image'
-              className='w-[60px] h-[60px] '
+              className='flex justify-start md:w-[60px] h-[60px]'
             />
             </div>
 
-            <p className='font-normal text-lg flex justify-center text-center mx-40 pt-4'>
+            <p className='font-normal text-lg flex justify-center text-center mx-6 md:mx-40 pt-4'>
               Lorem Ipsum stuff and stuff and all those text that is relevant to explaining what YCreators is about and what folks stand to benefit from being a part of YCreators rather than other people.
                This copy will be provided by the YCreators team. 
                thaoijaljsjkjbjwuwe khiqwu[q[auw ohwe[;;sdj kdhsieuwiwbb hbsahaaiw 
