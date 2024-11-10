@@ -45,7 +45,7 @@ const Service = () => {
                       className='w-[1516px] h-auto md:h-[239.86px]'
                     />
             </div>
-            <div className='mr-[50px] md:mr-[90px] mb-8'>  
+            <div className='mr-[49px] md:mr-[90px] mb-8'>  
                   <img 
                       src='/Frame 38.png'
                       alt='frame image'
