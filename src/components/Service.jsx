@@ -164,7 +164,7 @@ const Service = () => {
 
 {/* Team of expert section */}
                 <div className='flex flex-col md:flex-row my-20'>
-                    <div className='w-auto :md:w-[50%] relative px-6 md:px-20'>
+                    <div className='w-auto md:w-[50%] relative px-6 md:px-20 mb-60 md:mb-0'>
                       <div className='ml-2 mt-20 absolute'>
                         <img 
                         src='/Mask Group (14).png'
@@ -188,7 +188,7 @@ const Service = () => {
                       </div>
                     </div>
 
-                    <div className='w-auto md:w-[50%] mt-10 md:mt-40'>
+                    <div className='w-auto md:w-[50%] mx-6 md:mx-0 mt-10 md:mt-40'>
                       <h1 className='font-bold text-xl md:text-3xl pr-4 md:pr-40 text-[#333333]'>
                         Check out our team of expert facilitators
                       </h1>
