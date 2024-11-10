@@ -32,12 +32,12 @@ const About = () => {
       </div>
 
       <div className='mt-60'>
-        <div className='flex bg-[#FEF7E8] rounded-lg mx-6'>
+        <div className='flex flex-col md:flex-row bg-[#FEF7E8] rounded-lg mx-6'>
           <div className='w-[50%]'>
             <img 
               src='/Group 73.png'
               alt=''
-              className='relative pl-10'
+              className='relative pl-0 md:pl-10'
             />
           </div>
 
