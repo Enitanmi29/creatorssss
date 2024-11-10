@@ -137,13 +137,13 @@ const About = () => {
                 </h1>
                 <div className='flex flex-col md:flex-row items-center py-8 pl-8 md:pl-20'> 
                   <input 
-                  className='pl-4 w-[300px] md:w-[553px] border-2 border-[#4d7475] rounded-xl bg-[#009499] 
+                  className='pl-4 w-[250px] md:w-[553px] border-2 border-[#4d7475] rounded-xl bg-[#009499] 
                   font-sans font-normal text-[14px] py-4 mb-10 text-[#FFFFFF]'
                   type='email'
                   id=''
                   placeholder='Enter email address'
                   />
-                  <button className='bg-white font-bold border border-blue-200 rounded-xl ml-0 md:ml-8 px-6 md:px-4 py-4 mb-10'>
+                  <button className='bg-white flex justify-center font-bold border border-blue-200 rounded-xl ml-0 md:ml-8 px-6 md:px-4 py-4 mb-10'>
                       Subscribe           
                   </button>
                 </div>    
