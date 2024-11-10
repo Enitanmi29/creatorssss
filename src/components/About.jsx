@@ -31,7 +31,7 @@ const About = () => {
         
       </div>
 
-      <div className='mt-60'>
+      <div className='mt-20 md:mt-60'>
         <div className='flex flex-col md:flex-row bg-[#FEF7E8] rounded-lg mx-6'>
           <div className='w-full md:w-[50%]'>
             <img 
@@ -45,7 +45,7 @@ const About = () => {
             <h1 className='font-sans font-bold text-black text-lg md:text-xl'>
               Building things is a bit magical, we have the recipes
             </h1>
-            <p className='font-sans font-normal text-black text-[12px] md:text-sm pt-4'>
+            <p className='font-sans font-normal text-black text-[12px] md:text-sm pt-2 md:pt-4'>
               Lorem Ipsum stuff and stuff and all those text that is relevant
             </p>
           </div>
@@ -62,17 +62,17 @@ const About = () => {
 {/* About Ycreators section */}
         <div className='pt-6 md:pt-4'>
             <div className='flex justify-center text-center'>
-              <h1 className='font-sans font-bold text-[48px] text-[#333333]'>
+              <h1 className='font-sans font-bold text-[32px] md:text-[48px] text-[#333333]'>
                 About YCreators
               </h1>
               <img 
               src='/ion_planet-outline.png'
               alt='image'
-              className='flex justify-start md:w-[60px] h-[60px]'
+              className='w-[60px] h-[60px]'
             />
             </div>
 
-            <p className='font-normal text-lg flex justify-center text-center mx-6 md:mx-40 pt-4'>
+            <p className='font-normal text-sm md:text-lg flex justify-center text-center mx-6 md:mx-40 pt-4'>
               Lorem Ipsum stuff and stuff and all those text that is relevant to explaining what YCreators is about and what folks stand to benefit from being a part of YCreators rather than other people.
                This copy will be provided by the YCreators team. 
                thaoijaljsjkjbjwuwe khiqwu[q[auw ohwe[;;sdj kdhsieuwiwbb hbsahaaiw 
@@ -90,18 +90,18 @@ const About = () => {
                     <img 
                       src='/Frame 37.png'
                       alt='image'
-                      className='w-[1516px] h-[239.86px]'
+                      className='w-full md:w-[1516px] h-[239.86px]'
                     />
             </div>
             <div className='mr-[90px] mb-8'>  
                   <img 
                       src='/Frame 38.png'
                       alt='image'
-                      className='w-[1516px] h-[239.86px] '
+                      className='w-full md:w-[1516px] h-[239.86px] '
                     />
             </div>
             
-            <p className='pt-20 font-normal text-black text-lg mx-60 pb-20 flex justify-center text-center'>
+            <p className='pt-20 font-normal text-black text-sm md:text-lg mx-6 md:mx-60 pb-20 flex justify-center text-center'>
             Lorem Ipsum stuff and stuff and all those text that is relevant to explaining what YCreators is about and what folks stand to benefit from being a part of YCreators rather than other people.
              This copy will be provided by the YCreators team. thaoijaljsjkjbjwuwe khiqwu[q[auw ohwe[;;sdj kdhsieuwiwbb hbsahaaiw 
             </p>
