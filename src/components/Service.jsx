@@ -10,22 +10,22 @@ const Service = () => {
     <div className=''>
         <div className='bg-[#e2f3f3]'>
           <Navbar />
-          <h1 className='font-Nexa Bold font-bold text-[24px] md:text-[48px] flex justify-center text-center pt-6'>
+          <h1 className='font-Nexa Bold font-bold text-[32px] md:text-[48px] flex justify-center text-center pt-6'>
             Our Current Programs
           </h1>
 
-          <div className='opacity-1 ml-auto md:ml-[1200px]'>
+          <div className='opacity-1 ml-40 md:ml-[1200px]'>
               <img 
                 src='/fluent_target-arrow-20-filled.png'
-                alt='image'
+                alt=' arrow image'
                 className='w-[60px] h-[60px] '
               /> 
             </div>
 
-            <div className='opacity-1 ml-auto md:ml-[800px]'>
+            <div className='opacity-1 ml-20 md:ml-[800px]'>
               <img 
                 src='/path1538.png'
-                alt='image'
+                alt='circle image'
                 className='w-[42px] h-[41px] '
               /> 
             </div>
@@ -42,7 +42,7 @@ const Service = () => {
                     <img 
                       src='/Frame 37.png'
                       alt='frame image'
-                      className='w-[1516px] h-[239.86px]'
+                      className='w-[1516px] h-auto md:h-[239.86px]'
                     />
             </div>
             <div className='mr-[50px] md:mr-[90px] mb-8'>  
