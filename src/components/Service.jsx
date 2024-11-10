@@ -14,7 +14,7 @@ const Service = () => {
             Our Current Programs
           </h1>
 
-          <div className='opacity-1 ml-40 md:ml-[1200px]'>
+          <div className='opacity-1 ml-60 md:ml-[1200px]'>
               <img 
                 src='/fluent_target-arrow-20-filled.png'
                 alt=' arrow image'
@@ -22,7 +22,7 @@ const Service = () => {
               /> 
             </div>
 
-            <div className='opacity-1 ml-20 md:ml-[800px]'>
+            <div className='opacity-1 ml-40 md:ml-[800px]'>
               <img 
                 src='/path1538.png'
                 alt='circle image'
@@ -49,7 +49,7 @@ const Service = () => {
                   <img 
                       src='/Frame 38.png'
                       alt='frame image'
-                      className='w-[1516px] h-[239.86px] '
+                      className='w-[1516px] h-auto md:h-[239.86px] '
                     />
             </div>
         </div>

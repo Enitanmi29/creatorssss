@@ -90,14 +90,14 @@ const About = () => {
                     <img 
                       src='/Frame 37.png'
                       alt='image'
-                      className='w-full md:w-[1516px] h-[239.86px]'
+                      className='w-full md:w-[1516px] h-auto md:h-[239.86px]'
                     />
             </div>
             <div className='mr-[50px] md:mr-[90px] mb-8'>  
                   <img 
                       src='/Frame 38.png'
                       alt='image'
-                      className='w-full md:w-[1516px] h-[239.86px] '
+                      className='w-full md:w-[1516px] h-auto md:h-[239.86px] '
                     />
             </div>
             
