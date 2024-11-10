@@ -164,7 +164,7 @@ const Service = () => {
 
 {/* Team of expert section */}
                 <div className='flex flex-col md:flex-row my-20'>
-                    <div className='w-[50%] relative px-6 md:px-20'>
+                    <div className='w-auto :md:w-[50%] relative px-6 md:px-20'>
                       <div className='ml-2 mt-20 absolute'>
                         <img 
                         src='/Mask Group (14).png'
@@ -188,7 +188,7 @@ const Service = () => {
                       </div>
                     </div>
 
-                    <div className='w-[50%] mt-10 md:mt-40'>
+                    <div className='w-auto md:w-[50%] mt-10 md:mt-40'>
                       <h1 className='font-bold text-xl md:text-3xl pr-4 md:pr-40 text-[#333333]'>
                         Check out our team of expert facilitators
                       </h1>
@@ -207,18 +207,18 @@ const Service = () => {
                     
 
   {/* FREQUENTLY ASKED SECTION */}
-                <div className='mb-60 mt-20'>
-                    <h1 className='flex justify-center font-sans font-bold text-[40px]'>
+                <div className='mb-40 md:mb-60'>
+                    <h1 className='flex justify-center font-sans font-bold text-[24px] md:text-[40px] mx-2 md:mx-0'>
                         Frequently Asked Questions
                     </h1>
 
-                    <div className='relative'>
-                       <div className='absolute ml-[800px]'>
+                    <div className='relative w-full'>
+                       <div className='absolute ml-2 md:ml-[800px]'>
                          <img src='/path1538 (2).png' className='w-[654px] h-[554px]'/>
                        </div>    
-                        <div className='mb-4 mx-40 pt-20'>
+                        <div className='mb-4 mx-2 md:mx-40 pt-20'>
                                 {Questions.map ((Questions, index) =>(
-                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-10 py-4 pl-10 mb-3'>
+                                <p key={index} className=' bg-white border-2 border-[#C9C9C9] rounded-lg text-[16px] text-[#737373] font-sans font-normal ml-0 md:ml-10 py-4 pl-2 md:pl-10 mb-3'>
                                     {Questions.paragraph}
                                 </p>
                             ))}
