@@ -33,19 +33,19 @@ const About = () => {
 
       <div className='mt-60'>
         <div className='flex flex-col md:flex-row bg-[#FEF7E8] rounded-lg mx-6'>
-          <div className='w-[50%]'>
+          <div className='w-full md:w-[50%]'>
             <img 
               src='/Group 73.png'
               alt=''
-              className='relative pl-0 md:pl-10'
+              className='relative mx-2 md:pl-10'
             />
           </div>
 
-          <div className='w-[50%] mt-40'>
-            <h1 className='font-sans font-bold text-black text-xl'>
+          <div className='w-full md:w-[50%] mx-2 md:mx-0 mt-6 md:mt-40'>
+            <h1 className='font-sans font-bold text-black text-lg md:text-xl'>
               Building things is a bit magical, we have the recipes
             </h1>
-            <p className='font-sans font-normal text-black text-sm pt-4'>
+            <p className='font-sans font-normal text-black text-[12px] md:text-sm pt-4'>
               Lorem Ipsum stuff and stuff and all those text that is relevant
             </p>
           </div>
