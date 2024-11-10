@@ -86,7 +86,7 @@ const About = () => {
               /> 
             </div>
 
-            <div className='ml-20 mb-8'> 
+            <div className='ml-12 md:ml-20 mb-8'> 
                     <img 
                       src='/Frame 37.png'
                       alt='image'
