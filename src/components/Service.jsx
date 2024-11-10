@@ -164,7 +164,7 @@ const Service = () => {
 
 {/* Team of expert section */}
                 <div className='flex flex-col md:flex-row my-20'>
-                    <div className='w-auto md:w-[50%] relative px-6 md:px-20 mb-60 md:mb-0'>
+                    <div className='w-auto md:w-[50%] relative px-6 md:px-20 mb-[350px] md:mb-0 mx-6 md:mx-0'>
                       <div className='ml-2 mt-20 absolute'>
                         <img 
                         src='/Mask Group (14).png'
