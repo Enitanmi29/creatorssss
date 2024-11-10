@@ -71,7 +71,7 @@ const Service = () => {
               </Link>
             </div>
 
-            <div className='md:w-[50%] relative mt-10 md:mt-0 mb-[300PX] md:mb-0 mx-6'>
+            <div className='md:w-[50%] relative mt-10 md:mt-0 mb-[150PX] md:mb-0 mx-6'>
               <div className='ml-2 mt-20 absolute'>
                 <img 
                 src='/Mask Group (14).png'
@@ -163,36 +163,36 @@ const Service = () => {
               </div>
 
 {/* Team of expert section */}
-                <div className='flex my-20'>
-                    <div className='w-[50%] relative px-20'>
+                <div className='flex flex-col md:flex-row my-20'>
+                    <div className='w-[50%] relative px-6 md:px-20'>
                       <div className='ml-2 mt-20 absolute'>
                         <img 
                         src='/Mask Group (14).png'
                         alt='img'
-                        className='w-[222px] h-[222px]'
+                        className='w-[222px] h-auto md:h-[222px]'
                         />
                       </div>
                       <div className='ml-64 mt-6 absolute'>
                         <img 
                         src='/Mask Group (14).png'
                         alt='img'
-                        className='w-[222px] h-[222px]'
+                        className='w-[222px] h-auto md:h-[222px]'
                         />
                       </div>
                       <div className='ml-56 mt-80 absolute'>
                         <img 
                         src='/Mask Group (14).png'
                         alt='img'
-                        className='w-[222px] h-[222px]'
+                        className='w-[222px] h-auto md:h-[222px]'
                         />
                       </div>
                     </div>
 
-                    <div className='w-[50%] mt-40'>
-                      <h1 className='font-bold text-3xl pr-40 text-[#333333]'>
+                    <div className='w-[50%] mt-10 md:mt-40'>
+                      <h1 className='font-bold text-xl md:text-3xl pr-4 md:pr-40 text-[#333333]'>
                         Check out our team of expert facilitators
                       </h1>
-                      <p className='font-normal text-[16px] pr-40 text-[#000000] pt-6'>
+                      <p className='font-normal text-[12px] md:text-[16px] pr-4 md:pr-40 text-[#000000] pt-6'>
                         Lorem Ipsum stuff and stuff and all those text that is relevant to explaining what YCreators is about and what folks stand to benefit from being a part of YCreators rather than other people. This copy will be provided by the YCreators team.
                       </p>
                       <Link to="/Form1" className=''>
@@ -204,9 +204,7 @@ const Service = () => {
                 </div>
 
   {/* REVIEWS SECTION */}
-                    <div className='pt-20'>
-                        <Reviews />
-                    </div>
+                    
 
   {/* FREQUENTLY ASKED SECTION */}
                 <div className='mb-60 mt-20'>
