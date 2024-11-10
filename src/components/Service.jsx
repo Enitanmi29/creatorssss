@@ -10,11 +10,11 @@ const Service = () => {
     <div className=''>
         <div className='bg-[#e2f3f3]'>
           <Navbar />
-          <h1 className='font-Nexa Bold font-bold text-[48px] flex justify-center text-center pt-6'>
+          <h1 className='font-Nexa Bold font-bold text-[24px] md:text-[48px] flex justify-center text-center pt-6'>
             Our Current Programs
           </h1>
 
-          <div className='opacity-1 ml-[1200px]'>
+          <div className='opacity-1 ml-auto md:ml-[1200px]'>
               <img 
                 src='/fluent_target-arrow-20-filled.png'
                 alt='image'
@@ -22,7 +22,7 @@ const Service = () => {
               /> 
             </div>
 
-            <div className='opacity-1 ml-[800px]'>
+            <div className='opacity-1 ml-auto md:ml-[800px]'>
               <img 
                 src='/path1538.png'
                 alt='image'
@@ -30,7 +30,7 @@ const Service = () => {
               /> 
             </div>
 
-            <div className='opacity-1 ml-20 pb-6'>
+            <div className='opacity-1 ml-12 md:ml-20 pb-6'>
               <img 
                 src='/Group 60.png'
                 alt='image'
@@ -38,17 +38,17 @@ const Service = () => {
               /> 
             </div>
 
-            <div className='ml-20 mb-8'> 
+            <div className='ml-12 md:ml-20 mb-8'> 
                     <img 
                       src='/Frame 37.png'
-                      alt='image'
+                      alt='frame image'
                       className='w-[1516px] h-[239.86px]'
                     />
             </div>
-            <div className='mr-[90px] mb-8'>  
+            <div className='mr-[50px] md:mr-[90px] mb-8'>  
                   <img 
                       src='/Frame 38.png'
-                      alt='image'
+                      alt='frame image'
                       className='w-[1516px] h-[239.86px] '
                     />
             </div>
