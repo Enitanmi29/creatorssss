@@ -36,7 +36,7 @@ const Plan = () => {
 
     {/* PACKAGES SECTION */}
         <div className='bg-[#e4e3e3] mt-20 mx-10'>
-            <div className='flex'>
+            <div className='flex flex-col md:flex-row'>
                 <div className='flex pt-10 pl-6 md:pl-40 font-bold'>
                     <p> Showing </p>
                     <select
@@ -61,26 +61,26 @@ const Plan = () => {
             <div className='flex justify-center'> 
                <ul className=' rounded-lg px-4 grid grid-cols-2'>
                 {packages.map ((packages, index) =>(
-                    <div key={index} className='bg-white rounded-2xl border-4 ml-0 md:ml-10 pl-6 md:pl-8 pr-20 py-4 mb-8'>
-                        <h1 className='font-bold text-black text-lg mb-2'>
+                    <div key={index} className='bg-white rounded-2xl border-4 ml-0 md:ml-10 pl-4 md:pl-8 pr-20 py-2 md:py-4 mb-8'>
+                        <h1 className='font-bold text-black text-sm md:text-lg mb-2'>
                             {packages.title}
                         </h1>
-                        <p className='font-normal text-gray-800 text-sm mb-2'>
+                        <p className='font-normal text-gray-800 text-[12px] md:text-sm mb-2'>
                             {packages.text}
                         </p>
-                        <p className='font-normal text-green-400 text-sm mb-2'>
+                        <p className='font-normal text-green-400 text-[12px] md:text-sm mb-2'>
                             {packages.age}
                         </p>
-                        <p className='font-normal text-gray-800 text-sm mb-2'>
+                        <p className='font-normal text-gray-800 text-[12px] md:text-sm mb-2'>
                             {packages.text2}
                         </p>
                         <p className='font-normal text-gray-800 text-sm mb-2'>
                             {packages.text3}
                         </p>
-                        <h2 className='font-bold text-black text-3xl mb-2'>
+                        <h2 className='font-bold text-black text-xl md:text-3xl mb-2'>
                             {packages.price}
                         </h2>
-                         <div className='rounded-xl border border-blue-800 text-blue-500 mb-2 px-10 py-4 mr-40'>
+                         <div className='rounded-xl border border-blue-800 text-blue-500 mb-2 px-6 md:px-10 py-4 mr-0 md:mr-40'>
                             {packages.link}
                          </div>                   
                     </div>
