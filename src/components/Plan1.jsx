@@ -36,13 +36,13 @@ const Plan = () => {
     {/* PACKAGES SECTION */}
         
         <div className='bg-[#e4e3e3] mt-20 mx-10'>
-            <div className='flex'>
-                <div className='flex flex-col md:flex-row pt-10 pl-6 md:pl-40 font-bold'>
+            <div className='flex flex-col md:flex-row'>
+                <div className='flex pt-10 pl-6 md:pl-40 font-bold'>
                     <p> Showing </p>
                     <select
                     value={selectedOption}
                     onChange={handleSelectChange}
-                    className='text-green-900 block mb-6 md:mb-20 bg-[#e4e3e3] px-2'
+                    className='text-green-900 block mb-12 md:mb-20 bg-[#e4e3e3] px-2'
                     >
                         <option className='' value="">Individual</option>
                         <option className='text-white' value="standard"> Corporate</option>

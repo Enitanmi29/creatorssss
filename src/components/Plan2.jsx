@@ -23,26 +23,26 @@ const Plan = () => {
     <div>
         <div className='bg-[#e1ecff] pb-10'>
             <Navbar />
-            <h1 className='text-[#000000] text-5xl font-bold mt-10 mb-5 flex justify-center'> 
+            <h1 className='text-[#000000] text-3xl md:text-5xl font-bold mt-10 mb-5 flex justify-center'> 
                 Our Plans 
             </h1>
-            <p className='text-[#333333] text-xl font-normal  flex justify-center '>
+            <p className='text-[#333333] text-[12px] md:text-xl font-normal flex justify-center'>
                 Choose any of the following monthly plans which allow kids have 
             </p>
-            <p className='text-[#333333] text-xl font-normal  flex justify-center '>
+            <p className='text-[#333333] text-[12px] md:text-xl font-normal flex justify-center '>
                  access to the cafe at huge discounts.
             </p>
         </div>
     {/* PACKAGES SECTION */}
         
         <div className='bg-[#e4e3e3] mt-20 mx-10'>
-            <div className='flex'>
-                <div className='flex pt-10 pl-40 font-bold'>
+            <div className='flex flex-col md:flex-row'>
+                <div className='flex pt-10 pl-6 md:pl-40 font-bold'>
                     <p> Showing </p>
                     <select
                     value={selectedOption}
                     onChange={handleSelectChange}
-                    className='text-red-700 block mb-20 bg-[#e4e3e3] px-2'
+                    className='text-red-700 block mb-12 md:mb-20 bg-[#e4e3e3] px-2'
                     >
                         <option className='' value="">Schools</option>
                         <option className='text-white' value="standard"> Corporate</option>
@@ -54,14 +54,14 @@ const Plan = () => {
                  <img
                     src='/path2828.png'
                     alt='img'
-                    className='w-[102.83px] h-[102.73px] ml-[500px]'
+                    className='w-[102.83px] h-auto md:h-[102.73px] ml-[500px]'
                 />
             </div>
             
             <div className='flex justify-center'> 
-               <ul className=' rounded-lg px-4 grid grid-cols-2'>
+               <ul className=' rounded-lg px-4 grid grid-cols-1 md:grid-cols-2'>
                 {packages.map ((packages, index) =>(
-                    <div key={index} className='bg-white rounded-2xl border-4 ml-10 pl-8 pr-20 py-4 mb-8'>
+                    <div key={index} className='bg-white rounded-2xl border-4 ml-4 md:ml-10 pl-6 md:pl-8 pr-20 py-4 mb-8'>
                         <h1 className='font-bold text-black text-lg mb-2'>
                             {packages.title}
                         </h1>
