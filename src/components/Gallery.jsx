@@ -82,19 +82,19 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
                 <img 
                   src='/Mask Group (21).png'
                   alt='image'
-                  className='w-auto md:w-[467px] h-auto md:h-[376px] ml-[7px] '
+                  className='w-full md:w-[467px] h-auto md:h-[376px] ml-[7px] '
                 />
 
                 <img 
                   src='/Mask Group (14).png'
                   alt='image'
-                  className='w-auto md:w-[222px] h-auto md:h-[306px] ml-[20px]'
+                  className='w-full md:w-[222px] h-auto md:h-[306px] ml-[20px]'
                 />
 
                 <img 
                   src='/Mask Group (14).png'
                   alt='image'
-                  className='w-[222px] h-auto md:h-[306px] ml-[20px]'
+                  className='w-full md:w-[222px] h-auto md:h-[306px] ml-[20px]'
                 />
              </div>
 
