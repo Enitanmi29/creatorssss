@@ -36,8 +36,8 @@ const Plan = () => {
 
     {/* PACKAGES SECTION */}
         <div className='bg-[#e4e3e3] mt-20 mx-10'>
-            <div className='flex flex-col md:flex-row'>
-                <div className='flex pt-10 pl-40 font-bold'>
+            <div className='flex'>
+                <div className='flex pt-10 pl-6 md:pl-40 font-bold'>
                     <p> Showing </p>
                     <select
                     value={selectedOption}
@@ -54,7 +54,7 @@ const Plan = () => {
                  <img
                     src='/path2828.png'
                     alt='img'
-                    className='w-[102.83px] h-[102.73px] ml-[500px]'
+                    className='w-[102.83px] h-[102.73px] ml-auto md:ml-[500px]'
                 />
             </div>
             
