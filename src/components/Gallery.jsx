@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Gallery2 from './Gallery2'
 
 const ToggleBar = ({activeTab,setActiveTab}) => (
-  <div className="flex bg-gray-200 rounded-lg p-2 mx-6 md:mx-[565px] my-6 md:mb-8 md:mt-8">
+  <div className="flex bg-gray-200 rounded-lg p-2 mx-6 md:mx-[565px] my-10 md:mb-8 md:mt-8">
     <button
      onClick={() => setActiveTab ('pictures')}
      className={`px-6 py-2 rounded-l-lg ${
@@ -32,17 +32,17 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
           <div className='bg-[#f0ccc9] rounded-br-[50px] rounded-bl-[50px]' >
               <Navbar />
 
-            <div className='pb-20'>
+            <div className='pb-10 md:pb-20'>
               <img
                 src='/path1538.png'
                 alt='circle image'
-                className='w-[26px] h-[26px] ml-4 md:ml-[350px] mt-12 opacity-[80%]' 
+                className='w-[26px] h-[26px] ml-6 md:ml-[350px] mt-12 opacity-[80%]' 
               />
 
               <img
                 src='/path1538.png'
                 alt='circle image'
-                className='w-[46.34px] h-[46.34px] ml-8 md:ml-[850px] opacity-[80%]' 
+                className='w-[46.34px] h-[46.34px] ml-[300px] md:ml-[850px] opacity-[80%]' 
               />
 
               <h1 className=' flex font-bold justify-center text-5xl'>
@@ -52,13 +52,13 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
               <img
                 src='/path3004.png'
                 alt=''
-                className='w-[20.08px] h-[20.08x] ml-6 md:ml-[250px] opacity-[80%]' 
+                className='w-[20.08px] h-[20.08x] ml-10 md:ml-[250px] opacity-[80%]' 
               />
 
               <img
                 src='/fluent_target-arrow-20-filled.png'
                 alt='arrow image'
-                className='w-[60px] h-[60px] ml-20 md:ml-[1000px] opacity-[80%]' 
+                className='w-[60px] h-[60px] ml-[350px] md:ml-[1000px] opacity-[80%]' 
               />
 
               <img
@@ -82,13 +82,13 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
                 <img 
                   src='/Mask Group (21).png'
                   alt='image'
-                  className='w-[467px] h-auto md:h-[376px] ml-[7px] '
+                  className='w-auto md:w-[467px] h-auto md:h-[376px] ml-[7px] '
                 />
 
                 <img 
                   src='/Mask Group (14).png'
                   alt='image'
-                  className='w-[222px] h-auto md:h-[306px] ml-[20px]'
+                  className='w-auto md:w-[222px] h-auto md:h-[306px] ml-[20px]'
                 />
 
                 <img 
