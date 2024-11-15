@@ -54,14 +54,14 @@ const Plan = () => {
                  <img
                     src='/path2828.png'
                     alt='img'
-                    className='w-[102.83px] h-[102.73px] ml-auto md:ml-[500px]'
+                    className='w-[102.83px] h-auto md:h-[102.73px] ml-auto md:ml-[500px]'
                 />
             </div>
             
             <div className='flex justify-center'> 
                <ul className=' rounded-lg px-4 grid grid-cols-2'>
                 {packages.map ((packages, index) =>(
-                    <div key={index} className='bg-white rounded-2xl border-4 ml-10 pl-8 pr-20 py-4 mb-8'>
+                    <div key={index} className='bg-white rounded-2xl border-4 ml-0 md:ml-10 pl-6 md:pl-8 pr-20 py-4 mb-8'>
                         <h1 className='font-bold text-black text-lg mb-2'>
                             {packages.title}
                         </h1>
