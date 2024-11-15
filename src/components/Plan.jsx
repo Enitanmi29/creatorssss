@@ -59,7 +59,7 @@ const Plan = () => {
             </div>
             
             <div className='flex justify-center'> 
-               <ul className=' rounded-lg px-4 grid grid-cols-2'>
+               <ul className=' rounded-lg px-4 grid grid-cols-1 md:grid-cols-2'>
                 {packages.map ((packages, index) =>(
                     <div key={index} className='bg-white rounded-2xl border-4 ml-0 md:ml-10 pl-4 md:pl-8 pr-20 py-2 md:py-4 mb-8'>
                         <h1 className='font-bold text-black text-sm md:text-lg mb-2'>
