@@ -42,7 +42,7 @@ const Plan = () => {
                     <select
                     value={selectedOption}
                     onChange={handleSelectChange}
-                    className='text-blue-400 block mb-20 bg-[#e4e3e3] px-2'
+                    className='text-blue-400 block mb-12 md:mb-20 bg-[#e4e3e3] px-2'
                     >
                         <option className='' value=""> Corporate</option>
                         <option className='text-white' value="standard"> Individual </option>
