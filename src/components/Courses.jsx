@@ -115,7 +115,7 @@ const Courses = () => {
                   src={courses.image}
                   alt='image'
                 />
-                <div className='pl-4 pt-4'>
+                <div className='pl-1 md:pl-4 pt-4'>
                   <h1 className='font-bold pb-2'>{courses.title} </h1>
                   <p className='text-sm pb-2'>{courses.text}</p>
                   <p className='text-sm pb-2 text-green-400'>{courses.Age}</p>
