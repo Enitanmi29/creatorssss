@@ -100,7 +100,10 @@ const Home = () => {
     {/* PERFECT COURSE SECTION */}
     <div className='mx-6 bg-[#f0efef] rounded-md pb-10'>
         <div>
-            <div className='w-[102.83px] ml-[1150px]'> <img src='/path2828.png'/> </div>
+            <div className='w-[102.83px] ml-[200px] md:ml-[1150px]'> 
+                <img src='/path2828.png'
+                 alt=''/> 
+            </div>
             <h1 className='ml-8 font-Work Sans font-bold text-[32px] text-[#438CFD]'>
             Find your perfect course
             </h1>
