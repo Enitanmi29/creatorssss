@@ -60,8 +60,8 @@ const Courses = () => {
       </div>
 
       {/* FIND YOUR PERFECT COURSE */}
-      <div className='pl-10 mt-20 mx-20'>
-        <h1 className='font-bold text-3xl text-[#438CFD]'>
+      <div className='pl-4 md:pl-10 mt-20 mx-4 md:mx-20'>
+        <h1 className='font-bold text-xl md:text-3xl text-[#438CFD]'>
           Find your perfect course
         </h1>
         <p className='font-normal text-sm pt-4'>
