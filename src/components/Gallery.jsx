@@ -42,7 +42,7 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
               <img
                 src='/path1538.png'
                 alt='circle image'
-                className='w-[46.34px] h-[46.34px] ml-[300px] md:ml-[850px] opacity-[80%]' 
+                className='w-[46.34px] h-[46.34px] ml-[290px] md:ml-[850px] opacity-[80%]' 
               />
 
               <h1 className=' flex font-bold justify-center text-5xl'>
@@ -58,7 +58,7 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
               <img
                 src='/fluent_target-arrow-20-filled.png'
                 alt='arrow image'
-                className='w-[60px] h-[60px] ml-[350px] md:ml-[1000px] opacity-[80%]' 
+                className='w-[60px] h-[60px] ml-[3100px] md:ml-[1000px] opacity-[80%]' 
               />
 
               <img
@@ -74,76 +74,80 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
 {/* ROBOTIC SECTION */}
             {activeTab === 'pictures' && (
           <div className='pl-4 md:pl-60'>
-             <h1 className='font-bold text-lg text-[#333333] mt-20 pb-6 '>
-                Robotics Sessions, VI
-             </h1>
-
-             <div className='flex'>
-                <img 
-                  src='/Mask Group (21).png'
-                  alt='image'
-                  className='w-full md:w-[467px] h-auto md:h-[376px] ml-[7px] '
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-full md:w-[222px] h-auto md:h-[306px] ml-[20px]'
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-full md:w-[222px] h-auto md:h-[306px] ml-[20px]'
-                />
-             </div>
-
-             <div className='flex'>
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[152px] ml-[7px] mt-10 '
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[152px] ml-[20px] mt-10'
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[467px] h-auto md:h-[222px] ml-[20px] mt-[-30px]'
-                />
-            </div>
-
-            <div className='flex mt-10'>
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[222px] ml-[7px] '
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[222px] ml-[20px]'
-                />
-
-                <img 
-                  src='/Mask Group (21).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[222px] ml-[20px]'
-                />
-
-                <img 
-                  src='/Mask Group (14).png'
-                  alt='image'
-                  className='w-[222px] h-auto md:h-[222px] ml-[20px]'
-                />
-             </div>     
+          <h1 className='font-bold text-lg text-[#333333] mt-20 pb-6'>
+            Robotics Sessions, VI
+          </h1>
+        
+          {/* First Row */}
+          <div className='flex flex-wrap justify-center gap-4'>
+            <img 
+              src='/Mask Group (21).png'
+              alt='image'
+              className='w-full md:w-[467px] h-auto md:h-[376px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[306px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[306px] '
+            />
           </div>
+        
+          {/* Second Row */}
+          <div className='flex flex-wrap justify-center gap-4 mt-4'>
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[152px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[152px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-full md:w-[467px] h-auto md:h-[222px] '
+            />
+          </div>
+        
+          {/* Third Row */}
+          <div className='flex flex-wrap justify-center gap-4 mt-4'>
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[222px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[222px] '
+            />
+        
+            <img 
+              src='/Mask Group (21).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[222px] '
+            />
+        
+            <img 
+              src='/Mask Group (14).png'
+              alt='image'
+              className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[222px] '
+            />
+          </div>
+        </div>
+        
           )}
   {/* BOOTCAMP SECTION */}
             {activeTab === 'pictures' && (
