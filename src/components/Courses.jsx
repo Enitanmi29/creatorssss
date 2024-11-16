@@ -69,7 +69,7 @@ const Courses = () => {
         </p>
 
   {/* Dropdown Box */}
-          <div className='flex pt-10 pb-4'>
+          <div className='flex flex-col md:flex-row pt-10 pb-4'>
             <div className='mt-4 font-bold'>
               <select
                 value={selectedOption}
@@ -117,12 +117,12 @@ const Courses = () => {
                 />
                 <div className='pl-4 pt-4'>
                   <h1 className='font-bold pb-2'>{courses.title} </h1>
-                  <p className='font-sm pb-2'>{courses.text}</p>
-                  <p className='font-sm pb-2 text-green-400'>{courses.Age}</p>
+                  <p className='text-sm pb-2'>{courses.text}</p>
+                  <p className='text-sm pb-2 text-green-400'>{courses.Age}</p>
                   <Link to="/Service" className='font-sm pb-2 text-blue-400'>
                     {courses.link}
                   </Link>
-                  <p className='font-sm pb-2'>{courses.text1}</p>         
+                  <p className='text-sm pb-2'>{courses.text1}</p>         
                </div>            
             </div>
           ))}
