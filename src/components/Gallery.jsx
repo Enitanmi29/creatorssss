@@ -58,7 +58,7 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
               <img
                 src='/fluent_target-arrow-20-filled.png'
                 alt='arrow image'
-                className='w-[60px] h-[60px] ml-[3100px] md:ml-[1000px] opacity-[80%]' 
+                className='w-[60px] h-[60px] ml-[310px] md:ml-[1000px] opacity-[80%]' 
               />
 
               <img
