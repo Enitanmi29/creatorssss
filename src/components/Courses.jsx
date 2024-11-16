@@ -15,27 +15,27 @@ const Courses = () => {
     <div>
       <div className='bg-[#e2f3f3] pb-10'>
         <Navbar />
-        <h1 className='font-Nexa Bold font-bold text-[48px] flex justify-center text-center pt-6'>
+        <h1 className='font-Nexa Bold font-bold text-[28px]  md:text-[48px] flex justify-center text-center pt-6'>
           Our Courses
         </h1>
 
-        <div className='opacity-1 ml-[1200px]'>
+        <div className='opacity-1 ml-[310px] md:ml-[1200px]'>
           <img 
             src='/fluent_target-arrow-20-filled.png'
-            alt='image'
+            alt='arrow image'
             className='w-[60px] h-[60px]'
           /> 
         </div>
 
-        <div className='opacity-1 ml-[800px]'>
+        <div className='opacity-1 ml-[150px] md:ml-[800px]'>
           <img 
             src='/path1538.png'
-            alt='image'
+            alt='circle image'
             className='w-[42px] h-[41px]'
           /> 
         </div>
 
-        <div className='opacity-1 ml-20 pb-6'>
+        <div className='opacity-1 ml-10 md:ml-20 pb-6'>
           <img 
             src='/Group 60.png'
             alt='image'
@@ -47,14 +47,14 @@ const Courses = () => {
           <img 
             src='/Frame 37.png'
             alt='image'
-            className='w-[1516px] h-[239.86px]'
+            className='w-[1516px] h-auto md:h-[239.86px]'
           />
         </div>
         <div className='mr-[90px] mb-8'>  
           <img 
             src='/Frame 38.png'
             alt='image'
-            className='w-[1516px] h-[239.86px]'
+            className='w-[1516px] h-auto md:h-[239.86px]'
           />
         </div>
       </div>
