@@ -390,7 +390,7 @@ const Home = () => {
              </div>
 
 {/* Footer */}
-            <div className='mb-40'>
+            <div className='mb-0 md:mb-40'>
                 <Footer />
             </div>
     </>
