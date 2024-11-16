@@ -152,76 +152,80 @@ const ToggleBar = ({activeTab,setActiveTab}) => (
   {/* BOOTCAMP SECTION */}
             {activeTab === 'pictures' && (
               <div className='pl-4 md:pl-60 pb-20'>
-                <h1 className='font-bold text-lg text-[#333333] mt-20 pb-6 '>
-                    YCreators Bootcamp, Yaba
-                </h1>
+  <h1 className='font-bold text-lg text-[#333333] mt-20 pb-6 '>
+    YCreators Bootcamp, Yaba
+  </h1>
 
-                <div className='flex'>
-                  <img 
-                    src='/Mask Group (21).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[222px] ml-[7px] '
-                  />
+  {/* First Row */}
+  <div className='flex flex-wrap justify-center gap-4'>
+    <img 
+      src='/Mask Group (21).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[222px]'
+    />
 
-                  <img 
-                    src='/Mask Group (21).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[376px] ml-[20px]'
-                  />
+    <img 
+      src='/Mask Group (21).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[376px]'
+    />
 
-                  <img 
-                    src='/Mask Group (14).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[306px] ml-[20px]'
-                  />
+    <img 
+      src='/Mask Group (14).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[306px]'
+    />
 
-                  <img 
-                    src='/Mask Group (14).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[306px] ml-[20px]'
-                  />
-                </div>  
+    <img 
+      src='/Mask Group (14).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[306px]'
+    />
+  </div>  
 
-                <div className='flex mt-10'>
-                  <img 
-                    src='/Mask Group (21).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[306px] ml-[7px] mt-[-154px]'
-                  />
+  {/* Second Row */}
+  <div className='flex flex-wrap justify-center gap-4 mt-4'>
+    <img 
+      src='/Mask Group (21).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[306px] mt-[-154px]'
+    />
 
-                  <img 
-                    src='/Mask Group (14).png'
-                    alt='image'
-                    className='w-[222px] h-auto md:h-[152px] ml-[20px]'
-                  />
+    <img 
+      src='/Mask Group (14).png'
+      alt='image'
+      className='w-[calc(50%-10px)] md:w-[222px] h-auto md:h-[152px]'
+    />
 
-                  <img 
-                    src='/Mask Group (14).png'
-                    alt='image'
-                    className='w-[467px] h-auto md:h-[222px] ml-[20px] mt-[-70px]'
-                  />
-                </div> 
-              </div>
+    <img 
+      src='/Mask Group (14).png'
+      alt='image'
+      className='w-full md:w-[467px] h-auto md:h-[222px] mt-[-70px]'
+    />
+  </div> 
+</div>
+
               )}
 
 
   {/* GET STARTED WITH Y-CREATORS SECTION */}
-            <div className='bg-[#009499] flex flex-col md:flex-row rounded-xl mx-4 md:mx-20 my-20 pl-4 md:pl-10 pb-10 py-10'>
-              <div className='w-[50%]'>
-                    <h1 className='text-white text-xl md:text-3xl font-bold pt-6 pb-4'>
-                      Get  started with YCreators
-                    </h1>
-                    <p className='font-normal text-sm mr-40 text-white'>
-                      Join about 250 people who are building the future with YCreators’
-                      well-tailored courses and programs
-                    </p>
-              </div>
-              <div className='w-[50%] flex items-center py-10 pt-10 pl-20 '> 
-                  <button className='bg-white font-bold border border-blue-200 rounded-xl ml-8 px-20 py-4'>
-                      Get YCreators           
-                  </button>
-              </div>    
-          </div>
+  <div className='bg-[#009499] flex flex-col md:flex-row rounded-xl mx-4 md:mx-20 my-20 px-4 md:px-10 py-10'>
+  <div className='w-full md:w-1/2'>
+    <h1 className='text-white text-xl md:text-3xl font-bold pt-6 pb-4'>
+      Get started with YCreators
+    </h1>
+    <p className='text-white text-sm md:text-base mr-0 md:mr-40'>
+      Join about 250 people who are building the future with YCreators’ well-tailored courses and programs.
+    </p>
+  </div>
+
+  <div className='w-full md:w-1/2 flex items-center justify-center md:justify-end mt-6 md:mt-0'>
+    <button className='bg-white text-[#009499] font-bold border border-blue-200 rounded-xl px-10 md:px-20 py-3 md:py-4'>
+      Get YCreators           
+    </button>
+  </div>    
+</div>
+
 
 
   {/* FOOTER SECTION */}
